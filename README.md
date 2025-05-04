@@ -13,3 +13,16 @@
 - `git diff HEAD~<NUMBER>`: compares HEAD with the commit <NUMBER> ago (relative)
 - `git diff <HASH>`: compares HEAD with the commit in <HASH>
 
+-  `git log --oneline`: looking at the commit number
+-  `git restore --source d766345 README.md`: d766345 was the initial commit number all changes are revereted to initial commit
+-  `git add README.md`: Added the inital README.md to staging 
+-  `git commit -m "Restored to original README.md"`: commiting to staging
+-  `git push -u origin main`: piushing to main
+-  `git log --online`: Shows the new commit number added 
+-  `git restore --source 033d816 README.md`: switching from the initial commit back to the latest version
+-  `git status`: Shows the status of the repository
+-  `git restore --staged README.md`: staging the latest README.md 
+-  `git add README.md`:  
+-  `git commit -m "Restored to latest README.md"`:
+-  `git push -u origin main`:
+
